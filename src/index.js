@@ -11,14 +11,6 @@ import { allPosts } from './Allposts';
 const router = createHashRouter([
   {
     path: "/",
-    element: <Home/>
-  },
-  {
-    path: "/game",
-    element: <Portfolio experiencePosts={allPosts.game.experiencePosts} projectPosts={allPosts.game.projectPosts} />
-  },
-  {
-    path: "/general",
     element: <Portfolio experiencePosts={allPosts.general.experiencePosts} projectPosts={allPosts.general.projectPosts} />
   }
 ])
