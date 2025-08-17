@@ -12,6 +12,14 @@ const router = createHashRouter([
   {
     path: "/",
     element: <Portfolio experiencePosts={allPosts.general.experiencePosts} projectPosts={allPosts.general.projectPosts} />
+  },
+  {
+    path: "/general",
+    element: <Portfolio experiencePosts={allPosts.general.experiencePosts} projectPosts={allPosts.general.projectPosts} />
+  },
+  {
+    path: "/game",
+    element: <Portfolio experiencePosts={allPosts.general.experiencePosts} projectPosts={allPosts.general.projectPosts} />
   }
 ])
 

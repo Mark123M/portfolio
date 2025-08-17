@@ -74,7 +74,7 @@ function Bio() {
             <Navbar/>
           </Box>
           <Typography color="mytitle" variant="body1" fontFamily={"Poppins"} sx={bodyStyles}>
-              I'm a third year Computer Science student at the University of Waterloo. I'm passionate for graphics programming, computer vision, and scientific computing. I have over a year of professional experience in game programming and fullstack development, and I'm open to work in Winter 2026.
+            I'm a third year computer science student at the University of Waterloo. I'm passionate for graphics programming, machine learning, and systems development. I have over a year of professional experience in software development, specializing in systems and game programming. I'm seeking winter 2026 internship opportunities.
           </Typography>
         </Box>
     </Box>

@@ -5,12 +5,13 @@ export const allPosts = {
         [
             {
                 title: "Electronic Arts (EA): Systems Programmer Intern",
-                date: "May 2025 - Present",
+                date: "May 2025 - Aug 2025",
                 desc: "Audio and movie tools for the Frostbite engine",
                 points: [
-                    "Developed memory debugger tools in the Frostbite Engine using C++ for 12K+ developers across 23 studios",
-                    "Built an audio resource monitor using ImGui to manage streamed and preloaded data across 5K+ assets/level",
-                    "Visualized cache address space by traversing free list blocks to show fragmentation and health indicators"
+                    "Developed runtime memory debugger tools with C++ in the Frostbite engine used by 60+ high-budget games",
+                    "Built an audio resource monitor using ImGui to manage streamed and preloaded data for 5,000+ assets/level",
+                    "Visualized cache address space by traversing free list blocks to show fragmentation and health indicators",
+                    "Implemented virtualized and LOD UI rendering with sparse updates to optimize runtime overhead by ~90%"
                 ],
                 sources: [
                     ["/frostbite-3-engine.jpg", 0, "Frostbite Engine"],
@@ -21,10 +22,11 @@ export const allPosts = {
             {
                 title: "Waterloo Computer Graphics Lab: Research Assistant",
                 date: "Feb 2025 - Present",
-                desc: "Researching efficient training methods for real-time neural networks",
+                desc: "Supervised by Professor Toshiya Hachisuka",
                 points: [
-                    "Implemented parallel differential evolution optimizers for neural networks using PyTorch and CUDA",
-                    "Profiled GPU kernels using Nsight Compute to improve memory bandwidth usage for training small networks"
+                    "Developed a real-time GPU renderer using C++ and OpenGL to visualize 4D geometries and implicit forms",
+                    "Implemented a parallel differential evolution optimizer for neural networks using CUDA and PyTorch",
+                    "Profiled kernels using Nsight Compute to improve memory bandwidth usage for training small ML models"
                 ],
                 sources: [
                 ]
@@ -32,7 +34,7 @@ export const allPosts = {
             {
                 title: "Tactic Studios: Game Programmer Intern",
                 date: "Sep 2024 - Dec 2024",
-                desc: "An unannounced project for Square Enix",
+                desc: "Killer Inn: A multiplayer third person shooter and social deception game",
                 points: [
                     "Developed a node-based inventory system in C++ with TCP network replication to sort and trade game items",
                     "Created multiplayer scoreboard with minimap indicators to visualize stats, clues, and spatial data on suspects",
@@ -40,6 +42,11 @@ export const allPosts = {
                     "Implemented stat system calculations and localization tools to embed item upgrades and buff effects in HUD",
                 ],
                 sources: [
+                    ["https://www.youtube.com/embed/Jt_gaBXTwt8?si=vAHC9DWrG-YitAgN", 2, "Killer Inn"],
+                    ["/bodyfound.jpg", 0, "Body found"],
+                    ["/drone.jpg", 0, "Drone fight"],
+                    ["/suspects.jpg", 0, "Suspects"],
+                    ["/decrypt.jpg", 0, "Decrypt"]
                 ]
             },
             {
