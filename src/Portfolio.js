@@ -29,13 +29,14 @@ function Portfolio({experiencePosts, projectPosts}) {
     <Box display={"flex"} width={"100%"} height={"100%"} paddingTop={"20px"} justifyContent={"center"} bgcolor={"#FAE7C4"}>
       <Box display={"flex"} flexDirection={"column"} width={"90%"} maxWidth={950}>
         <Bio />
+        <Box marginTop={"10px"}></Box>
         <Section text={"Experiences"} />
-        <Box marginTop={"3px"}></Box>
+        <Box marginTop={"10px"}></Box>
         {experiencePosts.map((p, idx) => (
           <Post key={`experience-post-` + idx} title={p.title} date={p.date} desc={p.desc} points={p.points} sources={p.sources}/>
         ))}
         <Section text={"Projects"} />
-        <Box marginTop={"3px"}></Box>
+        <Box marginTop={"10px"}></Box>
         {projectPosts.map((p, idx) => (
           <Post key={`project-post-` + idx} title={p.title} date={p.date} desc={p.desc} points={p.points} sources={p.sources}/>
         ))}

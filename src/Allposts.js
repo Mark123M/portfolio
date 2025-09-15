@@ -4,14 +4,15 @@ export const allPosts = {
         experiencePosts:
         [
             {
-                title: "Electronic Arts (EA): Systems Programmer Intern",
+                title: "Electronic Arts (EA): Systems Software Engineer Intern",
                 date: "May 2025 - Aug 2025",
-                desc: "Audio and movie tools for the Frostbite engine",
+                desc: "Systems-level audio memory debugger and telemetry tools for the Frostbite Game Engine",
                 points: [
-                    "Developed runtime memory debugger tools with C++ in the Frostbite engine used by 60+ high-budget games",
-                    "Built an audio resource monitor using ImGui to manage streamed and preloaded data for 5,000+ assets/level",
-                    "Visualized cache address space by traversing free list blocks to show fragmentation and health indicators",
-                    "Implemented virtualized and LOD UI rendering with sparse updates to optimize runtime overhead by ~90%"
+                    "Led the development of runtime memory debugger tools for the Frostbite Engine used by 60+ AAA games",
+                    "Built an audio resource monitor using C++ to manage streamed and preloaded data for 5,000+ assets/level",
+                    "Visualized cache address space by analyzing free list blocks to show fragmentation and health indicators",
+                    "Implemented virtualized and LOD UI rendering with sparse updates to optimize data latency by ~90%",
+                    "Reported misconfigured cache allocators that caused ∼4.6% audio memory overhead in BF6 and Skate levels"
                 ],
                 sources: [
                     ["/frostbite-3-engine.jpg", 0, "Frostbite Engine"],
@@ -24,22 +25,22 @@ export const allPosts = {
                 date: "Feb 2025 - Present",
                 desc: "Supervised by Professor Toshiya Hachisuka",
                 points: [
-                    "Developed a real-time GPU renderer using C++ and OpenGL to visualize 4D geometries and implicit forms",
-                    "Implemented a parallel differential evolution optimizer for neural networks using CUDA and PyTorch",
-                    "Profiled kernels using Nsight Compute to improve memory bandwidth usage for training small ML models"
+                    "Implemented differential evolution algorithms on GPU with CUDA and PyTorch to optimize neural networks",
+                    "Applied parallel model fusion for memory-bound AI workloads to improve throughput as per Nsight Compute",
+                    "Researching real-time rendering algorithms for n-dimensional geometries using C++ and OpenGL with UofT"
                 ],
                 sources: [
                 ]
             },
             {
-                title: "Tactic Studios: Game Programmer Intern",
+                title: "Tactic Studios: Software Engineer Intern",
                 date: "Sep 2024 - Dec 2024",
-                desc: "Killer Inn: A multiplayer third person shooter and social deception game",
+                desc: "Multiplayer gameplay and UI features for Killer Inn: a third-person shooter game in closed beta",
                 points: [
-                    "Developed a node-based inventory system in C++ with TCP network replication to sort and trade game items",
+                    "Implemented a grid-based inventory system in C++ with TCP network replication to sort and trade items",
+                    "Optimized client-side hit registration algorithm using raycasts & collision layers to fix weapon no-clip exploit",
                     "Created multiplayer scoreboard with minimap indicators to visualize stats, clues, and spatial data on suspects",
-                    "Improved gunplay mechanics using raycasts and layer masks to handle target validation and weapon collision",
-                    "Implemented stat system calculations and localization tools to embed item upgrades and buff effects in HUD",
+                    "Built stat system calculations and localization tools and workflows for 2200+ text resource files",
                 ],
                 sources: [
                     ["https://www.youtube.com/embed/Jt_gaBXTwt8?si=vAHC9DWrG-YitAgN", 2, "Killer Inn"],
@@ -50,9 +51,9 @@ export const allPosts = {
                 ]
             },
             {
-                title: "AI Arena: Gameplay Programmer Intern",
+                title: "AI Arena: Game Programmer Intern",
                 date: "Jan 2024 - May 2024",
-                desc: "A platform fighter game where players train reinforcement learning agents to compete in ranked matchmaking",
+                desc: "Gameplay features and engine optimizations for AI Arena: A platform fighter game with imitation learning agents",
                 points: [
                     "Constructed a utility AI system with Three.js and TypeScript to manage behavior trees for 8 opponent agents",
                     "Developed aerial dodge, grab, and throw via finite state machines, applying framedata & collision responses",
@@ -65,13 +66,13 @@ export const allPosts = {
                 ]
             },
             {
-                title: "eButterfly: Software Developer Intern",
+                title: "eButterfly: Software Engineer Intern",
                 date: "May 2023 – Sep 2023",
                 desc: "A data-driven platform for collecting and analyzing butterfly distribution, phenology, and flight patterns",
                 points: [
-                    "Developed geospatial heatmaps for butterfly observations using Python and PostgreSQL by applying grid-based aggregation to cap plotted geometries for 500,000+ data points",
-                    "Built data import system with Node.js and React to extract and validate CSV rows with database schemas",
-                    "Implemented SSO and automated post creation to integrate discussion forum with main site for 4,000+ users",
+                    "Researched real-time geospatial heatmaps using Python and SQL for plotting 500k+ butterfly observations",
+                    "Automated bulk data imports with Node.js and React to extract & validate CSV rows with database schemas",
+                    "Implemented single sign-on (SSO) and automated post creation to connect discussion forum with main site for 4,000+ users",
                     "Created a taxonomy dashboard via recursive form components & lazy loading for 22,000+ butterfly species",
                 ],
                 sources: [
